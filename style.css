@@ -203,8 +203,6 @@ h5 {
   .content {
     margin-top: 20px;
     padding: 15px;
-    display: flex;
-    flex-direction: column;
   }
 
   #text-store {
@@ -232,18 +230,17 @@ h5 {
 
   .products {
     margin-top: 10px;
-    display: grid;
-    grid-template-columns: auto auto;
-    gap: 10%;
+    display: block;
   }
 
   .shirts img {
-    width: 130px;
+    margin-left: 18px;
+    width: 90%;
   }
 
   .shirts h3 {
     margin-top: 8px;
-    font-size: 0.8em;
+    font-size: 1em;
     text-align: center;
   }
 
@@ -251,7 +248,7 @@ h5 {
     font-family: "Yanone Kaffeesatz", sans-serif;
     font-weight: bold;
     margin-top: 8px;
-    font-size: 1em;
+    font-size: 1.2em;
     text-align: center;
   }
 
@@ -259,32 +256,40 @@ h5 {
     width: auto;
     height: auto;
     padding: 5px 5px;
-    font-size: 0.7em;
+    font-size: 0.8em;
     border: none;
     background-color: red;
     color: #fff;
     font-weight: bold;
     cursor: pointer;
-    margin-top: 10px;
+    margin-top: 8px;
+    margin-bottom: 18px;
+    margin-right: auto;
+    margin-left: auto;
     border-radius: 10px;
+    display: flex;
   }
 
   footer {
-    margin-top: 55px;
+    margin-top: 5px;
     background-color: rgb(0, 0, 0);
     border-top: 6px solid #535353;
   }
 
   footer .container {
+    display: block;
+    text-align: center;
+    font-size: 0.9em;
     padding: 10px;
+    /*padding: 10px;
     max-width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center;*/
   }
 
   footer img {
-    height: 50px;
+    height: 30px;
   }
 
   h4,
@@ -293,6 +298,7 @@ h5 {
     color: antiquewhite;
     font-weight: bold;
     text-align: center;
+    margin-bottom: 6px;
   }
 }
 
